@@ -693,3 +693,20 @@ procdump(void)
     printf("\n");
   }
 }
+
+// Function to get all pids in system
+int getpids(int *pids, char *names, int max) {
+    struct proc *p;
+    int count = 0;
+
+    acquire(&pid_lock);
+    for (p = proc; p < &proc[NPROC]; p++) {
+        if (p->state != UNUSED && count < max) {
+            pids[count] = p->pid;
+            safestrcpy(&names[count * 16], p->name, 16);
+            count++;
+        }
+    }
+    release(&pid_lock);
+    return count;
+}
