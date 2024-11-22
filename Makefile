@@ -140,6 +140,16 @@ UPROGS=\
 	$U/_wc\
 	$U/_zombie\
 	$U/_ps\
+        $U/_ex1\
+        $U/_ex2\
+        $U/_ex3\
+        $U/_ex3\
+        $U/_ex4\
+        $U/_ex5\
+        $U/_ex6\
+        $U/_ex7\
+        $U/_ex8\
+        $U/_ex9\
 
 fs.img: mkfs/mkfs README $(UPROGS)
 	mkfs/mkfs fs.img README $(UPROGS)
