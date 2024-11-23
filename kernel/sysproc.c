@@ -7,30 +7,6 @@
 #include "proc.h"
 
 uint64
-sys_getpids(void) {
-    uint64 pids_addr;
-    uint64 names_addr;
-    int max;
-
-    argint(2, &max);
-    argaddr(1, &names_addr);
-    argaddr(0, &pids_addr);
-
-    if ((max < 0) || (pids_addr < 0) || (names_addr < 0))
-      return -1;
-
-    int pids[max];
-    char names[max * 16];
-    int count = getpids(pids, names, max);
-
-    if(copyout(myproc()->pagetable, pids_addr, (char *)pids, sizeof(int) * count) < 0 ||
-      copyout(myproc()->pagetable, names_addr, names, count * 16) < 0)
-      return -1;
-
-    return count;
-}
-
-uint64
 sys_exit(void)
 {
   int n;
