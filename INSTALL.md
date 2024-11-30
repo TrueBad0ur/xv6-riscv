@@ -1,3 +1,6 @@
+# Schedule
+https://pdos.csail.mit.edu/6.S081/2024/schedule.html
+
 # Repo
 git clone git://g.csail.mit.edu/xv6-labs-2024
 

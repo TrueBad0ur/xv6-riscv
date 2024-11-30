@@ -1,0 +1,3 @@
+https://www.youtube.com/watch?v=J3LCzufEYt0&list=PLTsf9UeqkReZHXWY9yJvTwLJWYYPcKEqK
+https://pdos.csail.mit.edu/6.S081/2024/lec/l-c.txt
+https://pdos.csail.mit.edu/6.S081/2024/lec/l-c_slides.pdf
