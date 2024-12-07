@@ -1,0 +1,8 @@
+Add add-auto-load-safe-path /mnt/hgfs/Shared/xv6-riscv/.gdbinit to ~/.config/gdb/gdbinit
+
+1> make CPUS=1 qemu-gdb
+2> gdb-multiarch
+
+b *0x80000000
+c
+tui enable
