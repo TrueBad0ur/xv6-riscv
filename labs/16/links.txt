@@ -1,0 +1,9 @@
+https://pdos.csail.mit.edu/6.S081/2024/labs/lock.html
+
+https://pdos.csail.mit.edu/6.S081/2024/lec/l-uservm.txt
+https://pdos.csail.mit.edu/6.S081/2024/lec/uservm-faq.txt
+https://pdos.csail.mit.edu/6.S081/2024/lec/baker.c
+https://pdos.csail.mit.edu/6.S081/2024/lec/l-uservm.pdf
+
+https://pdos.csail.mit.edu/6.S081/2024/readings/appel-li.pdf
+https://pdos.csail.mit.edu/6.S081/2024/labs/fs.html

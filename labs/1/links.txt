@@ -2,3 +2,6 @@ https://www.youtube.com/watch?v=J3LCzufEYt0&list=PLTsf9UeqkReZHXWY9yJvTwLJWYYPcK
 https://pdos.csail.mit.edu/6.S081/2024/lec/l-overview.txt
 https://pdos.csail.mit.edu/6.S081/2024/lec/l-overview/
 https://pdos.csail.mit.edu/6.S081/2024/labs/util.html
+
+Chap 1:
+https://pdos.csail.mit.edu/6.S081/2024/xv6/book-riscv-rev4.pdf

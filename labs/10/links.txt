@@ -1,0 +1,5 @@
+https://pdos.csail.mit.edu/6.S081/2024/lec/l-lockv2.txt
+https://pdos.csail.mit.edu/6.S081/2024/xv6/book-riscv-rev4.pdf
+
+https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/spinlock.h
+https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/spinlock.c

@@ -1,2 +1,14 @@
 https://pdos.csail.mit.edu/6.S081/2024/lec/l-os.txt
 https://pdos.csail.mit.edu/6.S081/2024/labs/syscall.html
+
+Chap 2:
+https://pdos.csail.mit.edu/6.S081/2024/xv6/book-riscv-rev4.pdf
+
+https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/proc.h
+https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/defs.h
+https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/entry.S
+https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/main.c
+https://github.com/mit-pdos/xv6-riscv/blob/riscv/user/initcode.S
+https://github.com/mit-pdos/xv6-riscv/blob/riscv/user/init.c
+https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/proc.c
+https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/exec.c

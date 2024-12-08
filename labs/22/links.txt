@@ -1,0 +1,2 @@
+https://pdos.csail.mit.edu/6.S081/2024/lec/l-rcu.txt
+https://pdos.csail.mit.edu/6.S081/2024/readings/rcu-decade-later.pdf

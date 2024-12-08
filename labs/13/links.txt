@@ -1,0 +1,10 @@
+https://pdos.csail.mit.edu/6.S081/2024/lec/l-fs.txt
+https://pdos.csail.mit.edu/6.S081/2024/lec/l-fs1.pdf
+
+https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/bio.c
+https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/fs.c
+https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/sysfile.c
+https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/file.c
+
+Chap "File system" except for the logging sections:
+https://pdos.csail.mit.edu/6.S081/2024/xv6/book-riscv-rev4.pdf

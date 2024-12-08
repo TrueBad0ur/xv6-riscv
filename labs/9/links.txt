@@ -1,0 +1,13 @@
+https://pdos.csail.mit.edu/6.S081/2024/lec/l-interrupt.txt
+https://pdos.csail.mit.edu/6.S081/2024/lec/16550.pdf
+
+Chap 5:
+https://pdos.csail.mit.edu/6.S081/2024/xv6/book-riscv-rev4.pdf
+
+https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/kernelvec.S
+https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/plic.c
+https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/console.c
+https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/uart.c
+https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/printf.c
+
+https://pdos.csail.mit.edu/6.S081/2024/labs/cow.html

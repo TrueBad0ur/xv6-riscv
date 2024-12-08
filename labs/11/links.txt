@@ -1,0 +1,7 @@
+https://pdos.csail.mit.edu/6.S081/2024/lec/l-threads.txt
+
+Chap 7 Scheduling through sec 7.4:
+https://pdos.csail.mit.edu/6.S081/2024/xv6/book-riscv-rev4.pdf
+
+https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/proc.c
+https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/swtch.S
