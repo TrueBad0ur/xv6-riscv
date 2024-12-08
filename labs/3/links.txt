@@ -1,7 +1,7 @@
 https://pdos.csail.mit.edu/6.S081/2024/lec/l-os.txt
 https://pdos.csail.mit.edu/6.S081/2024/labs/syscall.html
 
-Chap 2:
+Chap 2, Sections 4.3 and 4.4 of Chapter 4:
 https://pdos.csail.mit.edu/6.S081/2024/xv6/book-riscv-rev4.pdf
 
 https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/proc.h
