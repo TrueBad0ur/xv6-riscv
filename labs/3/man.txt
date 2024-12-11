@@ -6,12 +6,12 @@ Add add-auto-load-safe-path /mnt/hgfs/Shared/xv6-riscv/.gdbinit to ~/.config/gdb
 b *0x80000000
 c
 tui enable
+set print pretty on
 
+trace 32 grep hello README
+trace 2147483647 ls
 
-
-
-
-
+b sys_debug
 
 File Description
 bio.c Disk block cache for the file system.

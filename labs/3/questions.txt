@@ -49,3 +49,6 @@ $1 = "initcode\000\000\000\000\000\000\000"
 
 (gdb) p p->pid
 $2 = 1
+
+- System call tracing -
+
