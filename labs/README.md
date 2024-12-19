@@ -2,7 +2,7 @@
 
 - [x] LEC 1
 - [x] LEC 2
-- [ ] LEC 3
+- [x] LEC 3
 - [ ] LEC 4
 - [ ] LEC 5
 - [ ] LEC 6

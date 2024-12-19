@@ -52,3 +52,22 @@ $2 = 1
 
 - System call tracing -
 
+- Attack xv6 -
+
+!DOESN'T WORK!
+
+Should comment the following lines
+kernel/kalloc.c
+line 55
+memset(pa, 1, PGSIZE);
+
+line 79, 80
+if(r)
+memset((char*)r, 5, PGSIZE); // fill with junk
+
+kernel/vm.c
+line 210
+memset(pagetable, 0, PGSIZE);
+
+line 248
+memset(mem, 0, PGSIZE);
