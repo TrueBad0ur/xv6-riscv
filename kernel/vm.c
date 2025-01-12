@@ -5,6 +5,8 @@
 #include "riscv.h"
 #include "defs.h"
 #include "fs.h"
+#include "proc.h"
+#include "vm.h"
 
 /*
  * the kernel's page table.
@@ -14,6 +16,24 @@ pagetable_t kernel_pagetable;
 extern char etext[];  // kernel.ld sets this to end of kernel code.
 
 extern char trampoline[]; // trampoline.S
+
+// Print page table of the current process
+void
+pagetable() {
+    struct proc *p = myproc();
+    pagetable_t pagetable = p->pagetable;
+
+    printf("Page table for process %d:\n", p->pid);
+    for (uint64 va = 0; va < MAXVA; va += PGSIZE) {
+        pte_t *pte = walk(pagetable, va, 0);
+        if (pte && (*pte & PTE_V)) {
+            uint64 pa = PTE2PA(*pte);
+            int flags = *pte & 0xFFF;
+            printf("VA 0x%lx -> PA 0x%lx Flags 0x%x\n", va, pa, flags);
+        }
+    }
+    printf("Full size: 0x%lx\n", p->sz);
+}
 
 // Make a direct-map page table for the kernel.
 pagetable_t

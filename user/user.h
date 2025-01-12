@@ -45,3 +45,4 @@ void free(void*);
 // custom
 int trace(int mask);
 int debug(void);
+int pagetable(void);

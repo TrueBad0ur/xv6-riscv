@@ -202,7 +202,8 @@ UPROGS=\
 	$U/_trace\
 	$U/_attack\
 	$U/_attacktest\
-	$U/_secret\
+	$U/_growmem\
+	#$U/_secret\
 
 
 ifeq ($(LAB),syscall)

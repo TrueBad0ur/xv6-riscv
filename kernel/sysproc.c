@@ -5,6 +5,13 @@
 #include "memlayout.h"
 #include "spinlock.h"
 #include "proc.h"
+#include "vm.h"
+
+uint64
+sys_pagetable(void) {
+    pagetable();
+    return 0;
+}
 
 uint64
 sys_debug(void) {
