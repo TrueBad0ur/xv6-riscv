@@ -1,3 +1,4 @@
+https://www.youtube.com/watch?v=bKfeeIRWrbQ&list=PLTsf9UeqkReZHXWY9yJvTwLJWYYPcKEqK&index=2
 https://pdos.csail.mit.edu/6.S081/2024/lec/l-os.txt
 https://pdos.csail.mit.edu/6.S081/2024/labs/syscall.html
 

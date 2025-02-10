@@ -8,7 +8,7 @@ int main() {
 
     for (int i=0; i < 10; i++) {
         printf("Calling sbrk(4096)[%d]...\n", i);
-        sbrk(4096);
+        printf("%s", sbrk(0x1000));
 
         printf("After sbrk(4096)[%d]:\n", i);
         pagetable();
