@@ -3,7 +3,7 @@
 - [x] LEC 1
 - [x] LEC 2
 - [x] LEC 3
-- [ ] LEC 4
+- [X] LEC 4 (tasks from book are toooo tough)
 - [ ] LEC 5
 - [ ] LEC 6
 - [ ] LEC 7
