@@ -469,3 +469,46 @@ copyinstr(pagetable_t pagetable, char *dst, uint64 srcva, uint64 max)
     return -1;
   }
 }
+
+void print_pgtbl(pagetable_t pgtbl, int depth, long virt) {
+  virt <<= 9;
+  for (int i = 0; i < 512; i++) {
+    pte_t pte = pgtbl[i];
+    if (pte & PTE_V) {
+      uint64 pa = PTE2PA(pte);
+      char prefix[16] = "||";
+      int str_end = 2;
+      for (int j = depth; j > 0; j--) {
+        prefix[str_end] = ' ';
+        prefix[str_end + 1] = '|';
+        prefix[str_end + 2] = '|';
+        str_end += 3;
+      }
+      printf(prefix);
+      if (depth == 2) {
+        printf("idx: %d: va: 0x%lx -> pa: 0x%lx, flags: ", i, ((virt + i) << 12), pa);
+      } else {
+        printf("idx: %d: pa: 0x%lx, flags: ", i, pa);
+      }
+      
+      long BIT_MACRO[4] = {PTE_R, PTE_W, PTE_X, PTE_U};
+      char symbol[][4] = {"r", "w", "x", "u"};
+      for (int i = 0; i < 4; i++) {
+        if ((pte & BIT_MACRO[i]) != 0) {
+          printf("%s", symbol[i]);
+        } else {
+          printf("-");
+        }
+      }
+      printf("\n");
+      if ((pte & (PTE_R | PTE_W | PTE_X)) == 0) {
+        print_pgtbl((pagetable_t)pa, depth + 1, virt + i);
+      }
+    }
+  }
+}
+
+void vmprint(pagetable_t pgtbl) {
+    printf("page table %p\n", pgtbl);
+    print_pgtbl(pgtbl, 0, 0L);
+}
