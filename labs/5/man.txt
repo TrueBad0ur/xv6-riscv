@@ -1,0 +1,52 @@
+Add add-auto-load-safe-path /mnt/hgfs/Shared/xv6-riscv/.gdbinit to ~/.config/gdb/gdbinit
+
+# Run qemu monitor mod
+console1> make CPUS=1 qemu-gdb QEMUOPTS="-nographic -serial mon:stdio -monitor telnet:localhost:45454,server,nowait"
+console2> gdb-multiarch
+console3> netcat localhost 45454
+For me it didn't work, gdb freezed and enteres endless loop
+So I just ran commands interactively: monitor info mem
+And just: make CPUS=1 qemu-gdb
+
+tui enable / layout src
+set print pretty on
+tui reg general
+
+(gdb) b *0xc24
+*(gdb) b *0xc22
+(gdb) c
+(gdb) delete 1
+(gdb) x/3i 0xc22
+
+(gdb) p $pc
+(gdb) p $sp
+
+(gdb) monitor info mem
+vaddr            paddr            size             attr
+---------------- ---------------- ---------------- -------
+0000000000000000 0000000087f3c000 0000000000001000 r-xu-a-
+0000000000001000 0000000087f39000 0000000000001000 r-xu---
+0000000000002000 0000000087f38000 0000000000001000 rw-u---
+0000000000003000 0000000087f37000 0000000000001000 rw-----
+0000000000004000 0000000087f36000 0000000000001000 rw-u---
+0000000000005000 0000000087f35000 0000000000001000 rw-u-ad
+0000003fffffe000 0000000087f4f000 0000000000001000 rw---ad
+0000003ffffff000 0000000080006000 0000000000001000 r-x--a-
+
+somehow stepi doesn't work for ecall, so b *$stvec
+
+How to find out that we are in supervisor mode?
+(gdb) x/6i $pc
+=> 0x3ffffff000:        csrw    sscratch,a0
+(gdb) monitor info mem
+...
+0000003ffffff000 0000000080006000 0000000000001000 r-x--a-
+
+No PTE_U bit on currently being executed page
+
+(gdb) layout src
+(gdb) break *usertrap
+(gdb) c
+
+well, there is a command finish to skip current function till the end.......
+
