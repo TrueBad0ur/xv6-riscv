@@ -203,6 +203,7 @@ UPROGS=\
 	$U/_attack\
 	$U/_attacktest\
 	$U/_growmem\
+	$U/_vmprint\
 	#$U/_secret\
 
 
