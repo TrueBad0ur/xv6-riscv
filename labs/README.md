@@ -1,25 +1,94 @@
 # TODO
 
 - [x] LEC 1
+- - [x] Chapter in book
+- - [x] Video lecture
+- - [x] Tasks from labs
 - [x] LEC 2
+- - [x] Chapter in book
+- - [x] Video lecture
+- - [x] Tasks from labs
 - [x] LEC 3
+- - [x] Chapter in book
+- - [x] Video lecture
+- - [x] Tasks from labs
 - [X] LEC 4 (tasks from book are toooo tough)
-- [ ] LEC 5
+- - [x] Chapter in book
+- - [x] Video lecture
+- - [x] Tasks from labs
+- [X] LEC 5
+- - [x] Chapter in book
+- - [x] Video lecture
+- - [x] Tasks from labs
 - [ ] LEC 6
+- - [ ] Chapter in book
+- - [ ] Video lecture
+- - [ ] Tasks from labs
 - [ ] LEC 7
+- - [ ] Chapter in book
+- - [ ] Video lecture
+- - [ ] Tasks from labs
 - [ ] LEC 8
+- - [ ] Chapter in book
+- - [ ] Video lecture
+- - [ ] Tasks from labs
 - [ ] LEC 9
+- - [ ] Chapter in book
+- - [ ] Video lecture
+- - [ ] Tasks from labs
 - [ ] LEC 10
+- - [ ] Chapter in book
+- - [ ] Video lecture
+- - [ ] Tasks from labs
 - [ ] LEC 11
+- - [ ] Chapter in book
+- - [ ] Video lecture
+- - [ ] Tasks from labs
 - [ ] LEC 12
+- - [ ] Chapter in book
+- - [ ] Video lecture
+- - [ ] Tasks from labs
 - [ ] LEC 13
+- - [ ] Chapter in book
+- - [ ] Video lecture
+- - [ ] Tasks from labs
 - [ ] Midterm
+- - [ ] Chapter in book
+- - [ ] Video lecture
+- - [ ] Tasks from labs
 - [ ] LEC 14
+- - [ ] Chapter in book
+- - [ ] Video lecture
+- - [ ] Tasks from labs
 - [ ] LEC 15
+- - [ ] Chapter in book
+- - [ ] Video lecture
+- - [ ] Tasks from labs
 - [ ] LEC 16
+- - [ ] Chapter in book
+- - [ ] Video lecture
+- - [ ] Tasks from labs
 - [ ] LEC 17
+- - [ ] Chapter in book
+- - [ ] Video lecture
+- - [ ] Tasks from labs
 - [ ] LEC 18
+- - [ ] Chapter in book
+- - [ ] Video lecture
+- - [ ] Tasks from labs
 - [ ] LEC 19
+- - [ ] Chapter in book
+- - [ ] Video lecture
+- - [ ] Tasks from labs
 - [ ] LEC 20
+- - [ ] Chapter in book
+- - [ ] Video lecture
+- - [ ] Tasks from labs
 - [ ] LEC 21
+- - [ ] Chapter in book
+- - [ ] Video lecture
+- - [ ] Tasks from labs
 - [ ] LEC 22
+- - [ ] Chapter in book
+- - [ ] Video lecture
+- - [ ] Tasks from labs

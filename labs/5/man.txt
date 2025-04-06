@@ -12,6 +12,16 @@ tui enable / layout src
 set print pretty on
 tui reg general
 
+layout asm
+layout reg
+layout split
+layout src
+focus asm
+focus reg
+
+i locals
+watch <variable-name>
+
 (gdb) b *0xc24
 *(gdb) b *0xc22
 (gdb) c
